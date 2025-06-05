@@ -10,14 +10,18 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./"),
     },
   },
+  base: '/ai-holiday-planner/', // This should match your repository name
+  build: {
+ase: '/ai-holiday-planner/', // This should match your repository name
   build: {
     outDir: 'dist',
     sourcemap: true,
+    minify: 'terser',
     rollupOptions: {
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          ui: ['lucide-react'],
+          ui: ['lucide-react', 'date-fns'],
         },
       },
     },
