@@ -6,7 +6,7 @@ import { DayPlanning } from "./components/DayPlanning";
 import { CalendarView } from "./components/CalendarView";
 import { WelcomeScreen } from "./components/WelcomeScreen";
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
-import { Toaster } from "sonner@2.0.3";
+import { Toaster } from "sonner";
 
 // Main App Content Component
 const AppContent: React.FC = () => {

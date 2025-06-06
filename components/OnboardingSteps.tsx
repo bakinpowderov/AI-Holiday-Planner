@@ -11,7 +11,7 @@ import { useTrip, ActivityType, Traveler } from "../context/TripContext";
 import { CalendarIcon, InfoIcon, BellIcon, PlusIcon, MinusIcon, UsersIcon } from "lucide-react";
 import { formatDate } from "../utils/dateUtils";
 import { cn } from "./ui/utils";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 // Trip Details Step Component (Now Step 0)
 export const TripDetailsStep: React.FC = () => {

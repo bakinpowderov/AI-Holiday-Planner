@@ -8,7 +8,7 @@ import { formatDate } from "../utils/dateUtils";
 import { ActivityCard } from "./ActivityCard";
 import { Skeleton } from "./ui/skeleton";
 import { RefreshCw, ArrowLeft, ArrowRight, Check, Calendar, AlertTriangle, UsersIcon } from "lucide-react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 
 export const DayPlanning: React.FC = () => {
   const { 
